@@ -5,4 +5,9 @@ public class Laptop implements Chargeable{
     public void charge() {
         System.out.println("The laptop is charging");
     }
+
+    public void batteryLife()
+    {
+        System.out.println("The laptop will have battery for 7 hours");
+    }
 }

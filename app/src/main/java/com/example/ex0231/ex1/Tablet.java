@@ -5,4 +5,9 @@ public class Tablet implements Chargeable{
     public void charge() {
         System.out.println("The tablet is charging");
     }
+
+    public void sizeInInches()
+    {
+        System.out.println("The tablet's size in inches is 10 inches");
+    }
 }

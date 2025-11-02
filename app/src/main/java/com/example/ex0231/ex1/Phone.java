@@ -6,4 +6,8 @@ public class Phone implements Chargeable{
     public void charge() {
         System.out.println("The phone is charging");
     }
+
+    public void Brand(){
+        System.out.println("The phone's brand is apple");
+    }
 }
