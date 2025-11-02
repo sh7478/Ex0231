@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //ex1 start
         Chargeable[] chargeables = new Chargeable[6];
         chargeables[0] = (new Laptop());
         chargeables[1] = (new Laptop());
@@ -30,6 +31,10 @@ public class MainActivity extends AppCompatActivity {
         {
             charges.charge();
         }
+        //ex1 end
+
+        //ex2 start
+
 
     }
 }
