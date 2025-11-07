@@ -6,4 +6,8 @@ public class Drum implements Playable{
     public void play() {
         System.out.println("The drum has been played");
     }
+
+    public void isFootPedal(){
+        System.out.println("there is a foot pedal in the drums");
+    }
 }

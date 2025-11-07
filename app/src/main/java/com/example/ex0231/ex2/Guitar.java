@@ -6,4 +6,8 @@ public class Guitar implements Playable{
     public void play() {
         System.out.println("the guitar has been played");
     }
+
+    public void chord(){
+        System.out.println("The guitar's chord that has been played is em");
+    }
 }
