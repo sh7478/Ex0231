@@ -12,6 +12,10 @@ import com.example.ex0231.ex1.Chargeable;
 import com.example.ex0231.ex1.Laptop;
 import com.example.ex0231.ex1.Phone;
 import com.example.ex0231.ex1.Tablet;
+import com.example.ex0231.ex2.Drum;
+import com.example.ex0231.ex2.Guitar;
+import com.example.ex0231.ex2.Piano;
+import com.example.ex0231.ex2.Playable;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,8 +38,14 @@ public class MainActivity extends AppCompatActivity {
         //ex1 end
 
         //ex2 start
-
-
+        Playable[] instruments = new Playable[3];
+        instruments[0] = (new Guitar());
+        instruments[1] = (new Drum());
+        instruments[2] = (new Piano());
+        for(Playable instrumant : instruments)
+        {
+            instrumant.play();
+        }
     }
 }
 
