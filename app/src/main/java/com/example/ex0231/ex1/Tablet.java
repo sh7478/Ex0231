@@ -11,4 +11,7 @@ public class Tablet implements Chargeable{
         System.out.println("The tablet's size in inches is 10 inches");
     }
 
+    public void osType(){
+        System.out.println("The tablet's os is android");
+    }
 }

@@ -10,4 +10,8 @@ public class Drum implements Playable{
     public void isFootPedal(){
         System.out.println("there is a foot pedal in the drums");
     }
+
+    public void material(){
+        System.out.println("The drum is made of wood");
+    }
 }

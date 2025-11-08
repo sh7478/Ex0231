@@ -10,4 +10,9 @@ public class Laptop implements Chargeable{
     {
         System.out.println("The laptop will have battery for 7 hours");
     }
+
+    public void usbAmount()
+    {
+        System.out.println("The laptop has 2 USB ports");
+    }
 }

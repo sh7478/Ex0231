@@ -10,4 +10,8 @@ public class Guitar implements Playable{
     public void chord(){
         System.out.println("The guitar's chord that has been played is Em");
     }
+
+    public void type(){
+        System.out.println("The guitar's type is electric");
+    }
 }

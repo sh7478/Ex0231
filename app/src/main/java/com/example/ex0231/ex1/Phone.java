@@ -11,4 +11,7 @@ public class Phone implements Chargeable{
         System.out.println("The phone's brand is apple");
     }
 
+    public void maxZoom(){
+        System.out.println("The phone's camera max zoom is 64x");
+    }
 }
