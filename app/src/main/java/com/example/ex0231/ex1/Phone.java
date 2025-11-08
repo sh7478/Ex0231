@@ -10,4 +10,5 @@ public class Phone implements Chargeable{
     public void Brand(){
         System.out.println("The phone's brand is apple");
     }
+
 }

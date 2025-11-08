@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
             charges.charge();
         }
         //ex1 end
-
+        System.out.println("====================start EX2====================");
         //ex2 start
         Playable[] instruments = new Playable[3];
         instruments[0] = (new Guitar());
